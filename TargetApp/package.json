@@ -1,0 +1,12 @@
+{
+  "name": "secret-generator-iapp",
+  "version": "1.0.0",
+  "description": "iExec iApp that generates secrets and pushes them to SMS automatically",
+  "main": "src/app.js",
+  "type": "module",
+  "dependencies": {
+    "@iexec/dataprotector-deserializer": "^0.1.1",
+    "iexec": "^8.22.4",
+    "ethers": "^6.16.0"
+  }
+}

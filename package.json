@@ -1,0 +1,25 @@
+{
+  "name": "secret-flow-orchestrator",
+  "version": "1.0.0",
+  "description": "iExec Secret Flow - TargetApp generates secrets, ConsumeApp uses them",
+  "main": "scripts/orchestrate.js",
+  "type": "module",
+  "scripts": {
+    "orchestrate": "node scripts/orchestrate.js",
+    "push-secret": "node scripts/push-secret.js"
+  },
+  "keywords": [
+    "iexec",
+    "iapp",
+    "secret",
+    "tee",
+    "confidential-computing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "ethers": "^6.16.0",
+    "iexec": "^8.22.4"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "secretName": "flow-test-1767697037",
+  "dedicatedAddress": "0xD83Bc73DB6AfB8b55513D049b23742C97ED24Ef6",
+  "secretInfo": {
+    "hash": "6669706fb17abafee593cd6dd07e481fe48e383b4dfc4fb854cf92a841bbad7b",
+    "type": "api-key",
+    "generatedAt": "2026-01-06T10:57:55.686Z",
+    "metadata": {
+      "format": "prefix_key",
+      "keyLength": 32
+    }
+  },
+  "smsInfo": {
+    "pushed": true,
+    "error": null
+  },
+  "consumeInstructions": {
+    "description": "To use this secret in ConsumeApp:",
+    "requesterAddress": "0xD83Bc73DB6AfB8b55513D049b23742C97ED24Ef6",
+    "secretName": "flow-test-1767697037",
+    "note": "The secret value is NEVER exposed - it went directly from TEE to SMS"
+  }
+}
